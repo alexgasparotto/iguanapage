@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Raleway' ;
+  src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+/* fondo de pagina web completa negra */
+body{
+  background-color: black;
+}
+/* TITULO pagina principal */
+.header__h1{
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+/* margen foto iguana 1280px */
+.section__margin{
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+/* imagen de fondo iguana1header */
+.section__div--backgroundimg{
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height:45.4375rem;
+
+}
+/* articulo flexbox parrafos e iguana2 */
+article{
+  display: flex;
+  justify-content:space-evenly;
+  padding-top: 2.8125rem;
+  padding-bottom: 2.8125rem;
+}
+
+/* imagen de iguana 2 tamanos ajuste*/
+.section__article--img{
+width: 24.9375rem;
+height: 14.8125rem;
+}
+
+/* parrafos en el articulo tamano, espacios */
+.section__article--p{
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 1em;
+  max-width: 29.6875em;
+  font-weight: 300;
+  letter-spacing: 0em;
+  opacity:1;
+  text-align: left;
+  padding-top: 2em;
+}
+
+/* background brown tercera caja */
+.section__div--backgroundbrw{
+  background-color:#1E1A13;
+  max-width: 80rem;
+  height: 21.75rem;
+  margin: 0 auto;
+
+}
+
+/* titulo caracteristicas centrado. */
+.section__h1{
+  color: white;
+  font-family: 'Raleway';
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.5em;
+  padding-top: 4.5rem;
+}
+
+/* contenedor flexbox para iconos */
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+
+}
+.box .subtitle{
+  margin: 0;
+  color: white;
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-size: 1.5em;
+}
+
+/* 3 iconos configurados */
+.icono{
+  height: 3rem;
+  padding: 1.5rem;
+}
+
+/* galeria de imagenes 3 iguanas */
+
+.gallery{
+  display: flex;
+  justify-content: center;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.gallery img{
+  width: 19.125rem;
+  height: 12.625rem;
+  padding: 0.5rem;
+  padding-top: 4.5625rem;
+  padding-bottom: 4.5625rem;
+}
+
+/* configuracion del footer */
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color:#1E1A13;
+  max-width: 80rem;
+  margin: 0 auto;}
+
+.footer h5{
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-size:1.25em;
+  color: white}
